@@ -1,0 +1,120 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3a3939;
+    color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.order-now {
+    text-align: center;
+    max-width: 1200px;
+    padding: 20px;
+    box-shadow: 0 5px 8px #cfbfab;
+}
+
+.order-now h1 {
+    font-size: 2.5em;
+    color: rgb(207, 168, 61);
+    margin-bottom: 15px;
+    font-weight: bold;
+    
+}
+
+.order-now p {
+    color: #ccc;
+    margin-bottom: 40px;
+    font-weight: bold;
+    
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card {
+    background-color: rgb(25, 25, 25);
+    border-radius: 20px;
+    width: 350px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px #dbcebd;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom:8px;
+}
+
+.card h2 {
+    font-size: 1.5em;
+    color: rgb(207, 168, 61);
+    margin-bottom: 6px;
+}
+
+.price {
+    font-size: 1.2em;
+    margin-bottom: 6px;
+    color: rgb(207, 168, 61);
+}
+
+.description {
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.rating span {
+    font-size: 2em;
+    color: rgb(255, 217, 0);
+    box-shadow: 0 5px 8px #d8a567;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 6px;
+}
+
+.quantity button {
+    width: 30px;
+    height: 30px;
+    background-color: #c2a033;
+    border: none;
+    border-radius: 5px;
+    color: #141414;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 5px 8px #af752e;
+}
+
+
+.quantity button:hover {
+    background-color: #ffe28c; 
+    transform: scale(1.1); 
+}
+.quantity button:active {
+    transform: scale(0.95);
+}
+
+
+.count {
+    font-size: 1.2em;
+    width: 40px;
+    text-align: center;
+    color: #f4f4f4;
+}

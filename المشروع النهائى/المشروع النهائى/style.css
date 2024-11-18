@@ -1,0 +1,85 @@
+:color {
+    --my-color: rgb(25, 25, 25);
+    --my-color:rgb(207, 168, 61);
+}
+/*=================================================*/
+body {
+    background-color: #333;
+    color:rgb(207, 168, 61);
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    box-shadow: 0 5px 8px #cfbfab;
+    flex-wrap: wrap;
+}
+.card {
+    background: c;
+    background-color: rgb(25, 25, 25);
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 950px;
+    width: 100%;
+    color: #fff;
+    display: flex;
+
+    flex-wrap: wrap;
+
+
+}
+h1{
+    text-align: center; 
+    font-size: 32px; 
+    color: rgb(207, 168, 61);
+    font-style: 'Georgia', serif;
+    font-weight: bold;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    flex-wrap: wrap;
+
+}
+.section-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+ img {
+    width: 350px;
+    height: auto;
+    border-radius: 20px;
+
+}
+.content {
+    text-align: center;
+    flex:1;
+}
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(207, 168, 61);
+   text-align: center;
+   display: flex;
+
+   justify-content: center;
+    align-items: center;
+    
+}
+.description {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.7;
+    
+}
+.price {
+    font-size: 24px;
+    color: rgb(207, 168, 61);
+    margin-top: 10px;
+    font-family: 'Georgia', serif;
+}
+/*=================================================*/

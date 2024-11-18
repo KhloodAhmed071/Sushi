@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+        position: relative;
+}
+
+body {
+    height: 100svh;
+    max-width: 100svw;
+    max-height: 100svh;
+    background-image: linear-gradient( rgb(43, 43, 43) 0%,70%, rgb(166, 166, 166));
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+form {
+    background-color: rgb(228, 228, 230);
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 0px 10%;
+    height: auto;
+    width: 60%;
+    flex-wrap: wrap;
+
+}
+
+input[type="text"] {
+    padding: 12px;
+    border-radius: 12px;
+    background-color: rgb(228, 228, 228);
+    border: 0.3px solid rgb(25, 25, 25);
+}
+
+input[type="password"] {
+    padding:12px;
+    border-radius: 12px;
+    border: 0.3px solid rgb(25, 25, 25);
+    background-color: rgb(228, 228, 228);
+}
+
+.submit {
+    padding: 8px;
+    border-radius: 16px;
+    background-color: rgb(43, 43, 43);
+    color: rgb(219, 199, 141);
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+label {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: rgb(207, 168, 61);
+}
+.invalid-text{
+    color: rgb(35, 109, 65);
+}
+form h3{
+    color: rgb(207, 168, 61);
+    text-align: center;
+    font-size: 38px;
+}
+.Logo{
+    position: fixed;
+    top: 2px;
+    left:1px;
+}
+.Logo img{
+    width: 65%;
+    height: 100%;
+}
+.invalid-pass{
+    color: brown;
+}
+
